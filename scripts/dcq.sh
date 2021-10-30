@@ -34,7 +34,6 @@ Usage:
   dcq c <app_name>
 """
       else
-        cd $(ghq list -p dcq)
         mkdir $(ghq list -p dcq)/contexts/$2
         mkdir $(ghq list -p dcq)/volumes/$2
         touch $(ghq list -p dcq)/contexts/$2/Dockerfile-$2

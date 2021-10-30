@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  serverless-front:
+    build:
+      context: ./contexts/serverless
+      dockerfile: Dockerfile-serverless
+    environment:
+      - AWS_CONFIG_FILE=/service-dir/.aws/config
+      - AWS_SHARED_CREDENTIALS_FILE=/service-dir/.aws/credentials
+    tty: true
+    image: serverless
+    container_name: serverless
+    volumes:
+      - ./volumes/serverless/service-dir:/service-dir

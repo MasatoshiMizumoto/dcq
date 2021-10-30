@@ -1,0 +1,6 @@
+volumes/*
+contexts/*/*
+# sample files
+!contexts/django/Dockerfile-django
+!contexts/django/requirements.txt
+!contexts/serverless/Dockerfile-serverless

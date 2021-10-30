@@ -1,6 +1,8 @@
 # dcq - Docker Compose Quick
 
-English README is [here](./README.md).
+![image](../img/screen.gif)
+
+English README is [here](../README.md).
 
 - Dockerfile と docker-compose を選択して起動する CLI ツールです。
 - このツールは以下のディレクトリを作成します。

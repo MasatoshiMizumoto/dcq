@@ -1,6 +1,8 @@
 # dcq - Docker Compose Quick
 
-日本語 README は[こちら](./README_ja.md)です。
+![image](./img/screen.gif)
+
+日本語 README は[こちら](./doc/README_ja.md)です。
 
 - This command line tool provides you with a Dockerfile and docker-compose.yml to select and launch.
 - This tool will create the following directories.

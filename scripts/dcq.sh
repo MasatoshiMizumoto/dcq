@@ -23,7 +23,6 @@ Commands:
   case $1 in
   # list
     "l" | "list")
-      cd $(ghq list -p dcq)
       ls -1r $(ghq list -p dcq)/docker-compose-* | xargs -I{} basename "{}" | sed 's/docker-compose-//' | cut -d '.' -f 1
     ;;
   # create

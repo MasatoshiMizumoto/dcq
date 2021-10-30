@@ -1,6 +1,11 @@
+# MacOS
+.DS_Store
+
+# Ignore directories
 volumes/*
 contexts/*/*
-# sample files
+
+# Sample files
 !contexts/django/Dockerfile-django
 !contexts/django/requirements.txt
 !contexts/serverless/Dockerfile-serverless

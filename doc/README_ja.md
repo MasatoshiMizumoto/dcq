@@ -45,10 +45,11 @@ dcq <command> <app_name>
 
 | commans           | example                   | description                                                                |
 | ----------------- | ------------------------- | -------------------------------------------------------------------------- |
+| `l` (or `list`)   | `dcq l`                   | 存在する app_name 一覧を表示します                                         |
 | `c` (or `create`) | `dcq c myapp`             | 空の `Dockerfile`,`docker-compose.yml`, および各種ディレクトリを作成します |
 | `u` (or `up`)     | `dcq u` or `dcq u django` | docker-compose up をデタッチモードで実行します                             |
+| `s` (or `shell`)  | `dcq s` or `dcq s django` | シェルを起動しますう                                                       |
 | `d` (or `down`)   | `dcq d` or `dcq d django` | docker-compose down を実行します                                           |
-| `l` (or `list`)   | `dcq l`                   | 存在する app_name 一覧を表示します                                         |
 
 ## サンプルファイル
 

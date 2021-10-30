@@ -45,10 +45,11 @@ dcq <command> <app_name>
 
 | commans           | example                   | description                                                          |
 | ----------------- | ------------------------- | -------------------------------------------------------------------- |
+| `l` (or `list`)   | `dcq l`                   | list all app_name                                                    |
 | `c` (or `create`) | `dcq c myapp`             | create empty `Dockerfile`,`docker-compose.yml`, and any directories. |
 | `u` (or `up`)     | `dcq u` or `dcq u django` | docker-compose up with detach                                        |
+| `s` (or `shell`)  | `dcq s` or `dcq s django` | attach shell                                                         |
 | `d` (or `down`)   | `dcq d` or `dcq d django` | docker-compose down                                                  |
-| `l` (or `list`)   | `dcq l`                   | list all app_name                                                    |
 
 ## Sample Files
 
